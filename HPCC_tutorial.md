@@ -1,4 +1,5 @@
 ##Accessing the HPCC at Michigan State
+Loosely based on [this](https://github.com/edamame-course/2015-tutorials/blob/master/final/2015-06-22-introduction_to_the_shell.md) tutorial from EDAMAME 2015. 
 
 ###Windows users
 Open Mobaxterm.
