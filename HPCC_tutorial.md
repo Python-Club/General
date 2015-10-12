@@ -11,7 +11,7 @@ Under "basic SSH settings", enter into the "remote host" window:
 hpcc.msu.edu
 ```
 
-Check the box for "specity username", and input your netID. Now click "ok" at the bottom of the screen. 
+Check the box for "specify username", and input your netID. Now click "ok" at the bottom of the screen. 
 After a few seconds, it will prompt you for your password. Enter the password and hit the enter key. *NOTE: nothing will show up on the screen as you type. That's ok. Just type your password as normal.
 
 
