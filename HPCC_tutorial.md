@@ -60,5 +60,40 @@ If at any time you've gotten lost down a rabbit hole of directories, you can use
 ```
 pwd
 ```
-to show your current file path. 
+to show your current file path. As an example, if you do this in your HPCC_tutorial directory, it will show
+```
+/mnt/home/[your netID]/HPCC_tutorial
+```
+##Accessing and transferring files with the shared research space 
+
+Now that we can navigate through directories, let's access our shared research space. 
+```
+cd /mnt/research/Helab
+```
+If we list the contents of the directory, we will see four other directories: Data_Management_Protocols, MassSpec, Phenometrics, and Sequencing.
+Let's navigate into the Data_Management_Protocols directory and see what's there.
+```
+cd Data_Management_Protocols
+ls
+```
+Let's go to the Sequencing_protocols directory.
+```
+cd Sequencing_protocols
+```
+Let's say that we have some sequencing data and want to transfer the sequencing contextual data file to our computer in order to fill it out. 
+
+###For Windows users
+Go to the top left corner of Mobaxterm again and click "Sessions->new session".
+This time, click "SFTP" which stands for "secure file transfer protocol".
+Enter 
+```
+hpcc@msu.edu
+```
+for "remote host" and your netID for the username. Click "ok".
+You may or may not be prompted to enter your password. This will take you to your home directory. The file path, in this case "/mnt/home/[your netID]" will be displayed in a bar on the right side of the screen. In order to navigate to the directory we want to be in, we can either enter the file path or click on the folders. 
+Once you find the correct file, you can simply drag and drop from the HPCC screen (on the right) to your computer (on the left). 
+You're done!
+
+###Mac users
+John will help you with FileZilla. Instructions will be updated at a later time. 
 
